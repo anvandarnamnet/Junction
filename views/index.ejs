@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Komdo</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="/bulma/bulma.css">
+  <link rel="stylesheet" href="/public/styles.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/public/favicon.ico">
+
+</head>
+
+<body>
+
+  <section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <img class="title" src="/public/KomdoLogo.png" alt="Komdo" width="140" height="50"/>
+
+      <div class="user-info">
+        <h4 id="username">Carl Petter Svensson</h4>
+        <div id="user-photo">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="info-message">
+  <div class="column is-half is-offset-one-quarter">
+  <h4 class="hour"></h4>
+  <h3 class="notification-title"></h3>
+  <p class="notification-body">Hover over the suggestions to see how you can save energy.</p>
+  </div>
+</section>
+
+  <section class="section ring-section">
+    <div class="sk-chasing-dots">
+      <div class="sk-child sk-dot1"></div>
+      <div class="sk-child sk-dot2"></div>
+    </div>
+    <div class="infobox">
+      <div class="infobox-inner">
+      <canvas id="canvas" width=400 height=400></canvas>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Powered by <strong>Komdo</strong>. </br>© 2016 Komdo
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+<script src="/public/script.js"></script>
+</body>
+</html>
